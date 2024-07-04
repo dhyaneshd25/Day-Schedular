@@ -18,7 +18,7 @@ app.use(cors())
 appp.use(express.json())
 appp.use(cors())
 
-mongoose.connect(process.env.MONGO_URI)
+mongoose.connect(process.env.DATABASE_URL)
 .then(()=>{
     console.log("MongoDB connected.....")
 })
