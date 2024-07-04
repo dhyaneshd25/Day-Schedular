@@ -8,8 +8,7 @@ const app=express()
 
 const router=require("./Routes/Route")
 const routerp=require("./Routes/savepr")
-const port=process.env.PORT || 9000
-const portp=process.env.PORT1 || 1000
+const port=process.env.PORT ||1000
 //Middleware
 
 
@@ -30,7 +29,5 @@ appp.use("/api",routerp)
 app.listen(port,()=>{
     console.log(`listening.....${port}`)
 })
-appp.listen(portp,()=>{
-    console.log(`listening.....${portp}`)
-})
+
 
