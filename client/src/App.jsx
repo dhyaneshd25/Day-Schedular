@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Daily from "../components/Daily";
-import { u ,uu} from "../utils/constant";;
+import { u } from "../utils/constant";;
 import { useState } from "react";
 
 import jsPDF from "jspdf";
